@@ -1,0 +1,66 @@
+
+/* styles.css */
+/* Font */
+/* Set font properties */
+html {
+    font: 20px "Times New Roman", serif;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+/* Box Model & Alignment */
+body {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+header, footer {
+    text-align: center;
+}
+
+.main-section {
+    text-align: center;
+    padding: 1rem;
+}
+
+#bio {
+    text-align: left;
+}
+
+.main-section-figure {
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+/* Colour */
+figcaption#absolute-path-image,
+figcaption#relative-path-image {
+    color: #4d4d4d;
+}
+
+h1, h2 {
+    color: #6b2c00;
+}
+
+header, footer {
+    background: #f2e3d8;
+}
+
+.main-section {
+    background-color: #f7f7f7;
+}
+
+#absolute-path-image {
+    background-color: #dcdcdc;
+}
+
+#relative-path-image {
+    background-color: #b3b3b3;
+}
