@@ -1,0 +1,162 @@
+/* Form CSS */
+/* Form */
+form {
+    max-width: 600px; /* Limit form width */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Add padding */
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Labels */
+label {
+    display: block; /* Display labels as block */
+    margin-bottom: 5px; /* Add some space below labels */
+    color: #0d639e; /* Dark blue text color */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Input Controls */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%; /* Take up full width */
+    height: 40px; /* Set height */
+    padding: 8px; /* Add padding */
+    margin-bottom: 10px; /* Add some space below inputs */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px; /* Add some space between radio buttons and checkboxes */
+}
+
+/* Button */
+button[type="submit"] {
+    background-color: #0d639e; /* Dark blue button */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+    display: block; /* Display button as block */
+    margin: 0 auto; /* Center button */
+}
+
+/* Responsive CSS */
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px; /* Decrease html font */
+    }
+
+    /* Remove Floats */
+    header li,
+    aside ul {
+        float: none;
+        display: block; /* Display list items as block */
+        text-align: center; /* Center-align text */
+    }
+
+    /* Adjust Widths */
+    .main-section,
+    aside {
+        width: 100%; /* Full width */
+    }
+}
+
+/* Media Query for Medium Screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust Box Model and Alignment */
+    form {
+        padding: 15px; /* Adjust padding */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+        height: 36px; /* Adjust height */
+        padding: 6px; /* Adjust padding */
+    }
+
+    button[type="submit"] {
+        padding: 8px 16px; /* Adjust padding */
+    }
+}
+
+/* Media Query for Large Screens */
+@media screen and (min-width: 1025px) {
+    /* Adjust Widths */
+    .main-section,
+    aside {
+        width: 50%; /* Half of the width */
+    }
+}
+
+footer {
+    background-color: #0d639e; /* Dark blue */
+    color: #ffffff; /* White text */
+    text-align: center; /* Aligning text center */
+    padding: 20px 0;
+    clear: both; /* Ensuring it clears the floated elements */
+    margin-top: 20px; /* Add margin to separate from content */
+}
+
+/* Navigation */
+header {
+    background-color: #fff; /* White */
+    padding: 10px 0; /* Adding padding for spacing */
+    text-align: center; /* Aligning text center */
+}
+
+header ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+header li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Add margin between list items */
+}
+
+header a {
+    color: #0d639e; /* Dark blue */
+    padding: 10px 125px; /* Adjust padding for height and width */
+    border: 2px solid #0d639e; /* Dark blue border */
+    border-radius: 5px;
+    font-weight: bold; /* Adding font weight */
+    text-decoration: none; /* Removing text decoration */
+}
+
+header a:hover {
+    background-color: #0d639e; /* Dark blue background on hover */
+    color: #fff; /* White text on hover */
+    border-color: #0d639e; /* Dark blue border on hover */
+}
+.priority label,
+.priority input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle; /* Align elements vertically */
+    margin-right: 10px; /* Add margin between radio buttons and labels */
+}
+
+div input[type="color"] {
+    width: 600px; /* Set width */
+    height: 40px; /* Set height */
+}
+
+h1 {
+    background-color: #0d639e; /* Dark blue */
+    color: #fff; /* White text */
+    text-align: center; /* Aligning text center */
+    padding: 20px 0;
+    clear: both; /* Ensuring it clears the floated elements */
+    margin-top: 20px; /* Add margin to separate from content */
+}

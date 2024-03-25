@@ -1,66 +1,174 @@
+/* Color Scheme */
+/* Background */
+body {
+    background-color: #f0f0f0; /* Light grayish-blue background */
+    font-family: Arial, sans-serif; /* Adding a default font family */
+}
 
-/* styles.css */
-/* Font */
-/* Set font properties */
-html {
-    font: 20px "Times New Roman", serif;
+/* Text */
+h1, h2, h3, blockquote, figcaption, td {
+    color: #000000; /* Dark gray for text */
+    text-align: center; /* Center-aligning text */
+}
+
+h1 {
+    background-color: #0d639e; /* Dark blue */
+    color: #fff; /* White text */
+    text-align: center; /* Aligning text center */
+    padding: 20px 0;
+    clear: both; /* Ensuring it clears the floated elements */
 }
 
 h1, h2 {
-    font-variant: small-caps;
+    font-weight: bold; /* Adding font weight */
 }
 
-footer p {
-    font-size: 0.8rem;
+blockquote {
+    font-style: italic; /* Adding font style */
 }
 
-/* Box Model & Alignment */
-body {
-    padding: 1rem;
+/* Links */
+a {
+    color: #0d639e; /* Dark blue for links */
+    text-decoration: underline; /* Adding underline for links */
+}
+
+a:hover {
+    color: #1582c2; /* Lighter blue on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Navigation */
+header {
+    background-color: #fff; /* White */
+    padding: 10px 0; /* Adding padding for spacing */
+}
+
+header ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+header a:hover {
+    background-color: #0d639e; /* Dark blue background on hover */
+    color: #fff; /* White text on hover */
+    border-color: #0d639e; /* Dark blue border on hover */
+}
+
+/* Main Content */
+.main-section {
+    background-color: #fff; /* White */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px; /* Adding padding for spacing */
+    margin-bottom: 20px; /* Adding margin for spacing */
+}
+
+figure.main-section-figure {
+    text-align: center; /* Center-aligning the content */
+}
+
+
+/* Aside */
+aside {
+    background-color: #f0f0f0; /* Light grayish-blue background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px; /* Adding padding for spacing */
+}
+
+/* Footer */
+footer {
+    background-color: #0d639e; /* Dark blue */
+    color: #fff !important; /* White text */
+    text-align: center; /* Aligning text center */
+    padding: 20px 0;
+    clear: both; /* Ensuring it clears the floated elements */
+    margin-top: 20px; /* Add margin to separate from content */
+}
+
+/* Additional styles */
+
+/* Adjusting table borders */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #0d639e; /* Dark blue border */
+}
+
+th, td {
+    padding: 8px;
+    text-align: center; /* Aligning data center */
+}
+
+/* Removing bullet points from list */
+aside ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Aligning text center */
+}
+
+/* Center-aligning links in the aside */
+aside a {
+    display: block;
+}
+
+/* Increasing line-height for links */
+aside a {
+    line-height: 2; /* Increasing line-height */
+}
+
+/* Center-aligning the video */
+#video {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%; /* Adjust the width as needed */
+}
+
+/* Center-aligning the iframe within the video section */
+#video iframe {
+    display: block;
     margin: 0 auto;
 }
 
-header, footer {
-    text-align: center;
+header {
+    background-color: #fff; /* White */
+    padding: 10px 0; /* Adding padding for spacing */
+    text-align: center; /* Aligning text center */
 }
 
-.main-section {
-    text-align: center;
-    padding: 1rem;
+header ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0; /* Remove default margin */
 }
 
-#bio {
-    text-align: left;
+header li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Add margin between list items */
 }
 
-.main-section-figure {
-    display: inline-block;
-    padding: 1rem;
-    margin: 1rem auto;
+header a {
+    color: #0d639e; /* Dark blue */
+    padding: 10px 350px;
+    border: 1px solid #0d639e; /* Dark blue border */
+    border-radius: 5px;
+    font-weight: bold; /* Adding font weight */
+    text-decoration: none; /* Removing text decoration */
 }
 
-/* Colour */
-figcaption#absolute-path-image,
-figcaption#relative-path-image {
-    color: #4d4d4d;
-}
-
-h1, h2 {
-    color: #6b2c00;
-}
-
-header, footer {
-    background: #f2e3d8;
-}
-
-.main-section {
-    background-color: #f7f7f7;
-}
-
-#absolute-path-image {
-    background-color: #dcdcdc;
-}
-
-#relative-path-image {
-    background-color: #b3b3b3;
+header a:hover {
+    background-color: #0d639e; /* Dark blue background on hover */
+    color: #fff; /* White text on hover */
+    border-color: #0d639e; /* Dark blue border on hover */
 }

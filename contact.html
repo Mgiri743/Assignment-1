@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sir Isaac Newton</title>
+    <meta name="description" content="Contact Sir Isaac Newton for inquiries and information.">
+    <meta name="keywords" content="contact, Sir Isaac Newton, physicist, mathematician, inquiry">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Sir Isaac Newton</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li> <!-- Link back to contact.html -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="contact-form" action="#" method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required autofocus>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <div>
+                <label for="category">Category:</label>
+                <select id="category" name="category" required>
+                    <option value="">Select a category</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Technical Support">Technical Support</option>
+                    <option value="Feedback">Feedback</option>
+                </select>
+            </div>
+            <div class="priority">
+                <label for="priority">Priority:</label>
+                <input type="radio" id="priority-low" name="priority" value="Low">
+                <label for="priority-low">Low</label>
+                <input type="radio" id="priority-medium" name="priority" value="Medium">
+                <label for="priority-medium">Medium</label>
+                <input type="radio" id="priority-high" name="priority" value="High">
+                <label for="priority-high">High</label>
+            </div>            
+            <div>
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+            <div>
+                <label for="color">Favorite Color:</label>
+                <input type="color" id="color" name="color">
+            </div>
+            <div>
+                <label for="notes">Additional Notes:</label>
+                <textarea id="notes" name="notes" placeholder="Enter any additional notes"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Manas Giri | 2024</p>
+    </footer>
+</body>
+</html>
